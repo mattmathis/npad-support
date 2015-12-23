@@ -72,7 +72,8 @@ cp -f $SOURCE_DIR/sidestream/doside $BUILD_DIR/build/bin
 cp -f $SOURCE_DIR/sidestream/exitstats.py $BUILD_DIR/build/bin
 cp -f $SOURCE_DIR/sidestream/tdump8000.py $BUILD_DIR/build/bin
 cp -f $SOURCE_DIR/sidestream/mkSample.py $BUILD_DIR/build/bin
-cp -f $SOURCE_DIR/sidestream/paris-traceroute.py $BUILD_DIR/build/bin
+cp -f $SOURCE_DIR/sidestream/paris_rollins.py $BUILD_DIR/build/bin
+cp -f $SOURCE_DIR/sidestream/paris_rollins_test.py $BUILD_DIR/build/bin
 
 # ensure environment variables point to the build/* directory
 cat <<\EOF > $BUILD_DIR/.bash_profile
