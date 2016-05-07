@@ -7,3 +7,5 @@ Support scripts for NPAD on M-Lab
     cd npad-support
     git checkout <tag>
     ./package/slicebuild.sh npad
+
+Are we done yet?
